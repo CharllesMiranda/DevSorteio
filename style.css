@@ -21,7 +21,7 @@ img {
     margin-bottom: -60px;
 }
 
-p {
+h2 {
     font-size: 32px; 
     font-weight: 500;
     margin-bottom: 40px;
@@ -43,6 +43,7 @@ input {
     padding-left: 7px;
     color: #000000;
     border: none;
+    
 }
 
 .botao {
