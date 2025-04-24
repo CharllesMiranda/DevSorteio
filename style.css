@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+body {
+    background: #000000;
+}
+
+.caixa {
+    display: grid;
+    justify-content: center;           
+    justify-items:center;
+}
+
+img {
+    width: 483px;
+    height: auto;
+    margin-bottom: -60px;
+}
+
+p {
+    font-size: 32px; 
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;           
+    justify-items:center;
+    flex-direction:row;
+    gap: 23px;
+}
+
+input {
+    width: 165px;
+    height: 34px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-left: 7px;
+    color: #000000;
+    border: none;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    width: 120px;
+    height: 34px;
+    border-radius: 13px;
+    margin: 27px auto;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
